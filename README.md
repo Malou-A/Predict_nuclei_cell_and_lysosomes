@@ -33,10 +33,15 @@ MFGTMPcx7_190816100002_B23f14d0.png	1683.812	80	7	101.153	10798.1 	51
 
 
 cuDNN/7.1.4.18
+
 CUDA/9.2.88
+
 Keras/2.2.4
+
 TensorFlow/1.13.1
+
 scikit-image/0.14.1
+
 numpy/1.15.0
 
 
