@@ -2,8 +2,8 @@
 
 ## Description
 
-This script is created to predict nuclei, cells and lysosomes from microscopy images. The input is expected to be a zipped folder containing the images.
-The images are of C01 format and the images ends with either d0.C01, d1.C01 or d2.C01.
+This script is created to predict nuclei, cells and lysosomes from microscopy images. The input is expected to be a compressed .tar.gz folder containing the images.
+The images are of C01 format and they end with either d0.C01, d1.C01 or d2.C01.
 
 **The process in the script is as follows:**
 
