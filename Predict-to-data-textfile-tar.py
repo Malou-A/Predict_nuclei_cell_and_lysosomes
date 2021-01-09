@@ -229,3 +229,8 @@ for image in tqdm(ch0_list):
         ax[1][3].set_title("Lysosomes" + str(lysosomes))
         plt.savefig(savepath + image.split("/")[-1][:-4] + ".png")
         plt.close(fig)
+    os.remove(input_dir + image[:-5] + "1.C01")
+    os.remove(input_dir + image)
+    os.remove(png_dir + image.split("/")[-1][:-5] + "1.png")
+    os.remove(png_dir + image.split("/")[-1][:-4] + ".png")
+
